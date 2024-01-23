@@ -15,7 +15,7 @@ export class Carros extends Veiculos {
         
     }
    
-    // getters e setters
+   
     get numeroPortas() {
       return this._numeroPortas
     }    

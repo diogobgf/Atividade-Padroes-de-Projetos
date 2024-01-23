@@ -25,7 +25,7 @@ export abstract class Veiculos {
   
     public abstract represent(): string;
         
-    // getters e setters
+  
     get modelo() {
       return this._modelo
     }    

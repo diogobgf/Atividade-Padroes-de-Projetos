@@ -13,7 +13,7 @@ export class Bicicletas extends Veiculos {
         return `modelo: ${this.modelo} - marca: ${this.marca} - cor: ${this.cor} - rodas: ${this.numeroRodas} - marchas: ${this.numeroMarchas}`;
     }
 
-    // getters e setters
+ 
     get numeroMarchas(): number {
         return this._numeroMarchas;
     }
