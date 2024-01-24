@@ -1,7 +1,7 @@
 //importando interface
 import { ISanduba } from "./isanduba";
 
-export class Sanduiche implements ISanduba {
+export class Sanduba implements ISanduba {
     private nome: string = 'Sanduíche'
     private preco: number = 0.0;
     
